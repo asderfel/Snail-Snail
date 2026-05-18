@@ -1,13 +1,9 @@
 # Pixel Runner 🎮
-````markdown
-# Pixel Runner 🎮
 
 Pixel Runner is a simple 2D runner game made with **Python** and **Pygame**.  
 The idea is easy: the player runs forward, jumps over enemies, and tries to survive as long as possible. The longer you stay alive, the higher your score becomes.
 
 This project was created as a student game project to practice Python basics, game loops, sprites, collision detection, animation, sound, and project structure.
-
-The project uses Object-Oriented Programming (OOP) with sprite classes for the player and obstacles.
 
 ---
 
@@ -23,7 +19,6 @@ The project uses Object-Oriented Programming (OOP) with sprite classes for the p
 - Plays background music and jump sound
 - Shows the final score after losing
 
----
 
 ## Technologies used
 
@@ -33,14 +28,14 @@ The project uses Object-Oriented Programming (OOP) with sprite classes for the p
 - **Timers** — used to spawn enemies and animate them
 - **Images and audio files** — used to make the game look and feel like a real small game
 
----
-
 ## Project files
 
-```text
+The game needs folders like this:
+
+text
 project-folder/
 │
-├── runner.py
+├── Final.py
 ├── README.md
 │
 ├── graphics/
@@ -79,13 +74,13 @@ pip install pygame
 Then run the game:
 
 ```bash
-python runner.py
+python tutorial.py
 ```
 
 On macOS, sometimes you may need:
 
 ```bash
-python3 runner.py
+python3 tutorial.py
 ```
 
 ---
@@ -123,7 +118,6 @@ While making this game, I practiced:
 - using timers and events
 - organizing code into functions and classes
 
----
 
 ## Future improvements
 
@@ -136,4 +130,4 @@ Some possible improvements for the game:
 - add coins or power-ups
 - add a better menu screen
 - add more enemy types
-````
+проверь этот реадми
